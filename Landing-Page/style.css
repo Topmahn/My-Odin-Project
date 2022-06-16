@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #1f2937;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0 7rem 0;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 16px;
+    color: #ccc;
+}
+
+header .header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+header .header h1{
+    color: #fff;
+}
+
+header .header p{
+    font-weight: 250;
+    color: #ccc;
+}
+
+header .content{
+    width: 420px;
+}
+
+header .image{
+    padding: 5rem;
+    background-color: #bbb;
+    border-radius: 1px;
+    color: #eee;
+}
+
+.header .content .button{
+    margin-top: 8px;
+}
+
+header .content button{
+    padding:  6px 26px;
+    color: #fff;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+}
+
+.section .container .text{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+
+   .section .container h2{
+    color: #1f2937;
+    text-align: center;
+   }
+
+   .section .container .boxes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+  
+   }
+
+   .section .container .one{
+    width: 118px;
+    height: 110px;
+    border: 2.5px solid rgb(6, 111, 230);
+    border-radius: 5px;
+   }
+
+   .section .container .item{
+    width: 120px;
+    font-size: small;
+    font-weight: 200;
+   }
+
+   span{
+    text-align: center;
+    display: block;
+   }
+
+   .secondsection{
+    background-color: #ccc;
+    color: #1f2937;
+  }
+
+  .secondsection .container{
+    padding: 7rem 5rem;
+  }
+
+  .secondsection p:nth-child(1){
+    font-size: x-large;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .secondsection p:nth-child(2){
+    float: right;
+    font-weight: 500;
+  }
+
+  .thirdsection{
+    padding: 4rem;
+  }
+
+  .thirdsection .container{
+    background-color: rgb(29, 144, 232);
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .thirdsection .container p{
+    font-weight: 200;
+  }
+
+  .thirdsection .container button{
+    padding: 4px 20px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: rgb(29, 144, 232);
+    color: #fff;
+  }
