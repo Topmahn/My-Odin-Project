@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.CSS" />
+    <style>
+      nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        background-color: ;
+        padding: 0;
+      }
+
+      nav li {
+        width: 100%;
+        background-color: #010e80;
+        padding: 30px;
+        text-align: center;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      nav li:hover {
+        background-color: #01081f;
+      }
+
+      header,
+      main {
+        margin: 16px;
+      }
+
+      #blog article p {
+        max-width: 80%;
+        line-height: 32px;
+        font-size: 18px;
+      }
+
+      #statue {
+        max-width: 600px;
+        margin-left: 0;
+      }
+
+      #statue img {
+        width: 80%;
+      }
+
+      aside {
+        border: 4px solid #010e80;
+        max-width: 80%;
+        padding: 16px;
+      }
+
+      #media article{
+        max-width: 80%;
+      }
+
+      video {
+        max-width: 500px;
+        padding: 16px 16px 16px 0;
+      }
+
+      embed{
+        display: block;
+        max-width: 500px;
+        padding: 16px 16px 16px 0;
+      }
+
+      audio{
+        width: 95vw;
+        height: 30px;
+      }
+
+      footer{
+        background-color: #010e80;
+        color: #fff;
+        text-align: center;
+        padding: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Media</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>New York City</h1>
+    </header>
+    <main>
+      <section id="blog">
+        <article>
+          <p>
+            New York City is made up of five boroughs which include Queens,
+            Manhattan, Brooklyn, the Bronx, and Staten Island. The city is the
+            home of approximately 8 million people. In 1876, France gifted the
+            City of New York what is known as the Statue of Liberty, which is
+            currently located on Ellis Island commonly visited by tourists.
+            However, it took 10 years to assemble and therefore wasn’t unveiled
+            until 1886. Another tourist destination is Times Square. Times
+            Square is commonly known for the big buildings, Broadway shows, and
+            bright neon signs. This famous location was named after The New York
+            Times after the Times moved to that location. Prior to that, it was
+            named Longacre Square. New York City is also known for its bridges
+            that connect the boroughs and allow ease of transportation.
+          </p>
+        </article>
+      </section>
+      <figure id="statue">
+        <img
+          src="https://content.codecademy.com/courses/Semantic%20HTML/statue-of-liberty.jpeg"
+          alt="statue of liberty"
+        />
+        <figcaption>
+          This is the Statue of Liberty, a popular tourist attraction located on
+          Ellis Island.
+        </figcaption>
+      </figure>
+      <aside>
+        <p>
+          New York City is very popular for the variety of great food it has.
+          Some of the top food items in NYC include:
+        </p>
+        <ol>
+          <li>Pizza</li>
+          <li>Bagels</li>
+          <li>Burgers and Sandwiches</li>
+          <li>Ramen</li>
+          <li>Tacos</li>
+          <li>Pasta</li>
+          <li>Desserts</li>
+        </ol>
+      </aside>
+      <section id="media">
+        <article>
+          <h2>The Scenery in NYC</h2>
+          <p>
+            While the view in the city is beautiful, the sounds are not as
+            lovely. Below you'll see an example of the view and the sounds
+            you'll deal with in NYC on a daily basis.
+          </p>
+        </article>
+      </section>
+      <video controls>
+        <source id="source"
+          src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline-timelapse.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <embed
+        src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-skyline.jpeg"
+        type="image/jpeg"
+      />
+      <audio controls>
+        <source
+          src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov"
+          type="audio/mp3"
+        />
+      </audio>
+    </main>
+    <footer>
+      <p>Posted by Ibrahim Akande</p>
+      <p>contact Information: Blogger@NYC.com</p>
+    </footer>
+  </body>
+</html>
